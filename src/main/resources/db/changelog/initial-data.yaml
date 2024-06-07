@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: 2
+      author: Timur_Shaydullin
+      changes:
+        - sqlFile:
+            path: "classpath:db/changelog/initial-data.sql"
+            splitStatements: true
+            endDelimiter: ";"
